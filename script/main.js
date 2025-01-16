@@ -1,6 +1,7 @@
 
 // Set the background image for the body
-document.body.style.backgroundImage = "url('./../img/WhatsApp%20Image%202025-01-16%20at%2012.14.09%20PM.jpeg')";
+document.body.style.color = "red";
+document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./../img/WhatsApp%20Image%202025-01-16%20at%2012.14.09%20PM.jpeg')";
 document.body.style.backgroundSize = "cover"; // Ensure the image covers the entire page
 document.body.style.backgroundPosition = "center"; // Center the image
 document.body.style.backgroundAttachment = "fixed"; // Make the image fixed during scroll
