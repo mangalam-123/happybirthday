@@ -1,3 +1,14 @@
+
+// Set the background image for the body
+document.body.style.backgroundImage = "url('./../img/WhatsApp%20Image%202025-01-16%20at%2012.14.09%20PM.jpeg')";
+document.body.style.backgroundSize = "cover"; // Ensure the image covers the entire page
+document.body.style.backgroundPosition = "center"; // Center the image
+document.body.style.backgroundAttachment = "fixed"; // Make the image fixed during scroll
+document.body.style.margin = "0"; // Remove default margins for full coverage
+document.body.style.height = "100vh"; // Ensure the body takes up full viewport height
+
+
+
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
